@@ -1,0 +1,29 @@
+**Exercise 1**.
+```bash
+cd ~
+ls -l
+```
+**Exercise 2**.
+```bash
+du -ah /var/log | sort -h
+```
+**Exercise 3**.
+```bash
+nano firstname.txt
+```
+**Exercise 4**.
+```bash
+echo "Keskin" > lastname.txt
+```
+**Exercise 5**.
+```bash
+cat firstname.txt && lastname.txt
+```
+**Exercise 6**.
+```bash
+cat lastname.txt >> firstname.txt
+```
+**Exercise 7**.
+```bash
+ls -d ~/*/ > my_folders.txt
+```
