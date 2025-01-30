@@ -27,3 +27,62 @@ cat lastname.txt >> firstname.txt
 ```bash
 ls -d ~/*/ > my_folders.txt
 ```
+
+
+** Regular expressions hw (0-11)**
+**Exercise 1**.
+```bash
+ls ~/ | grep -E '^[A-Z]'
+```
+
+**Exercise 2**.
+```bash
+ls -A ~/ | grep -E '^\.'
+```
+
+**Exercise 3**.
+```bash
+ls -A ~/ | grep -E '^\.' | wc -l
+```
+
+**Exercise 4**.
+```bash
+ls ~/ | grep -E '^[A-Za-z]+$'
+```
+
+**Exercise 5**.
+```bash
+ls ~/ | grep -E '^[^A-Z]+$'
+```
+
+**Exercise 6**.
+```bash
+ls ~/ | grep -E -v '\.[a-zA-Z]{3}$'
+```
+
+**Exercise 7**.
+```bash
+ls /etc | grep -E '^c.*y$'
+```
+
+**Exercise 8**.
+```bash
+ls /etc | grep -E 'ss'
+```
+
+**Exercise 9**.
+```bash
+ls -l ~/ | grep -E '^.[A-Z].[A-Z].e$'
+```
+
+**Exercise 10**.
+```bash
+ls ~/ | grep -E '^[a-zA-Z0-9]{4}$'
+```
+
+**Exercise 11**.
+```bash
+ls -1 /var/log | grep -E '\.log$'
+```
+
+
